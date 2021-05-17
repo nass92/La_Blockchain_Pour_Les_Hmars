@@ -12,7 +12,7 @@ You will have also an acces to a crypto-tracker. On the bar navigation you will 
 I choose the API of Coingecko for recuperate data. 
 
 
-## Is the App Finish?
+## `Is the App Finish?`
 
 The App is not finish. Some style is not yet apply. 
 And I think I will to add a sideBar on the right Home page. This section will be containe a formula to know how calculate a price of a Crypto-currency. A converter crypto, to know how much cost a crypto than an another. And, why not, a cryptotracker of the 5th or 10th biggest crypto; whith only the icon, the name, the price variation, and the price.    
