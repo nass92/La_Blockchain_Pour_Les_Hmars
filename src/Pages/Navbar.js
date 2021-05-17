@@ -13,6 +13,7 @@ function Navbar({ setCrypto }) {
     setCrypto(e.target.value)
   }
   const [click, setClick] = useState(false)
+  // eslint-disable-next-line
   const [button, setButton] = useState(true)
   const handleClick = () => { setClick(!click) }
   const closeMobileMenu = () => setClick(false)
