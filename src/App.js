@@ -9,13 +9,13 @@ function App({ setCrypto }) {
   return (
     <Router>
       <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/home">Home</Link>
-            </li>
-          </ul>
-        </nav>
+
+        <ul>
+          <li>
+            <Link to="/home">Home</Link>
+          </li>
+        </ul>
+
         <Switch>
           <Route path='/home' exact component={Home} />
           <Route path='/list' component={CoinsApi} />
