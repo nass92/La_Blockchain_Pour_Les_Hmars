@@ -14,9 +14,6 @@ function App({ setCrypto }) {
             <li>
               <Link to="/home">Home</Link>
             </li>
-            <li>
-              <Link to="/list">ListCoin</Link>
-            </li>
           </ul>
         </nav>
         <Switch>
