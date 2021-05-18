@@ -8,19 +8,13 @@ function App({ setCrypto }) {
 
   return (
     <Router>
-      <div>
 
-        <ul>
-          <li>
-            <Link to="/home">Home</Link>
-          </li>
-        </ul>
+      <Switch>
+        <Route path='/' exact component={Home} />
+        <Route path='/home' component={Home} />
+        <Route path='/list' component={CoinsApi} />
+      </Switch>
 
-        <Switch>
-          <Route path='/home' exact component={Home} />
-          <Route path='/list' component={CoinsApi} />
-        </Switch>
-      </div>
     </Router >
 
   );
