@@ -4,8 +4,10 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './Pages/HomePage/Home'
 import CoinsApi from "./Pages/LsCoins/Api";
 
-function App({ setCrypto }) {
 
+
+function App({ setCrypto }) {
+ 
   return (
     <Router>
 
